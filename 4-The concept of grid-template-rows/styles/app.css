@@ -1,0 +1,22 @@
+.grid_container {
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 130px auto 130px;
+    /* 
+         defines three grid rows:
+             the first row is auto (based on content),
+             the second row is 400 pixels, 
+             and the third row is auto (based on content).
+    
+    */
+    grid-template-rows: auto 400px auto;
+
+}
+
+.grid_item {
+    background-color: blueviolet;
+    color: azure;
+    margin: 4px;
+    padding: 20px;
+    text-align: center;
+}

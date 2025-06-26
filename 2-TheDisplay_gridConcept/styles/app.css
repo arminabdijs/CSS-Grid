@@ -1,0 +1,12 @@
+.grid_container{
+    background-color: antiquewhite;
+    display: grid;
+}
+
+.grid_item{
+    background-color: blueviolet;
+    color: azure;
+    margin: 4px;
+    padding:20px;
+    text-align: center;
+}

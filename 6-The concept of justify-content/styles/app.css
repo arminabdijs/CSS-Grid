@@ -1,0 +1,26 @@
+.grid_container {
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+
+    /* horizontally centers the elements in a layout. */
+    justify-content: center;
+
+    /* horizontally distributes elements in a layout with equal space between them, placing the first element at the start and the last at the end. */
+    justify-content: space-between;
+
+    /* horizontally distributes elements in a layout with equal space around them, including half-sized spaces at the start and end. */
+    justify-content: space-around;
+
+    /* horizontally distributes elements in a layout with equal space between them, including equal spaces at the start, end, and between elements. */
+    justify-content: space-evenly;
+
+}
+
+.grid_item {
+    background-color: blueviolet;
+    color: azure;
+    margin: 4px;
+    padding: 20px;
+    text-align: center;
+}

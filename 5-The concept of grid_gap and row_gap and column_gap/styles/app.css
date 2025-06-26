@@ -1,0 +1,32 @@
+.grid_container {
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 130px auto 130px;
+    grid-template-rows: auto 400px auto;
+    
+    /* creates a 40-pixel gap between columns in the grid. */
+    column-gap: 40px;
+
+    /* creates a 40-pixel gap between rows in the grid. */
+    row-gap: 40px;
+    
+    /* creates a 40-pixel gap between rows and columns in the grid. */
+    grid-gap: 40px;
+
+    /* sets a 70-pixel gap between rows and a 20-pixel gap between columns in the grid. */
+    gap: 70px 20px;
+
+    /* sets a 40-pixel gap between both rows and columns in the grid. */
+    gap: 40px;
+
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+}
+
+.grid_item {
+    background-color: blueviolet;
+    color: azure;
+    margin: 4px;
+    padding: 20px;
+    text-align: center;
+}

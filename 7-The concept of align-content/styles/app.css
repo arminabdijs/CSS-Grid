@@ -1,0 +1,34 @@
+.grid_container {
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    height: 600px;
+
+    /* Centers all grid rows vertically when there's extra space. */
+    align-content: center;
+
+    /* Moves all grid rows to the bottom when there's extra vertical space. */
+    align-content: end;
+
+    /* Aligns all grid rows to the top when there's extra vertical space. */
+    align-content: start;
+
+    /* Distributes grid rows with equal space between them (first at top, last at bottom). */
+    align-content: space-between;
+
+    /* Adds equal space around each grid row (top, bottom, and between rows). */
+    align-content: space-around;
+    
+    /* Equal space is placed between all rows, including top and bottom. */ 
+    align-content: space-evenly;
+
+
+}
+
+.grid_item {
+    background-color: blueviolet;
+    color: azure;
+    margin: 4px;
+    padding: 20px;
+    text-align: center;
+}

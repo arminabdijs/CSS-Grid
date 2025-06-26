@@ -1,0 +1,20 @@
+.grid_container{
+    background-color: antiquewhite;
+    display: grid;
+    /* defines three grid columns: 
+            the first column is 100 pixels, the second 
+            is auto (based on content), and the third
+            is 100 pixels. 
+    */
+    /* grid-template-columns: 100px auto 100px; */
+    /* grid-template-columns: auto auto auto; */
+    grid-template-columns: 70% 30%;
+}
+
+.grid_item{
+    background-color: blueviolet;
+    color: azure;
+    margin: 4px;
+    padding:20px;
+    text-align: center;
+}
