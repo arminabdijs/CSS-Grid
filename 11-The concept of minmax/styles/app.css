@@ -1,0 +1,16 @@
+.grid_container {
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: minmax(200px,400px) 1fr 1fr;
+    grid-template-rows: minmax(100px,200px) minmax(200px,450px) minmax(100px,200px);
+    grid-template-rows: repeat(3,minmax(100px,200px));
+    
+}
+
+.grid_item {
+    background-color: rgb(64, 226, 43);
+    color: azure;
+    margin: 4px;
+    padding: 20px;
+    text-align: center;
+}
