@@ -1,0 +1,46 @@
+.grid_container {
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+
+}
+
+.grid_item {
+    background-color: rgb(64, 226, 43);
+    color: azure;
+    margin: 4px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:992px) {
+    .grid_container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid_item {
+        background-color: #f6e607;
+    }
+}
+@media screen and (max-width:750px) {
+    .grid_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid_item {
+        background-color: #f607c2;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .grid_container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grid_item {
+        background-color: #07eaf6;
+    }
+}

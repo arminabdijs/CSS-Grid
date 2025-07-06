@@ -1,0 +1,27 @@
+.grid_container {
+    background-color: antiquewhite;
+    display: inline-grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    height: 600px;
+
+    /* justify-items: center;
+
+    align-items: center; */
+
+}
+
+.grid_item {
+    background-color: rgb(64, 226, 43);
+    color: azure;
+    margin: 4px;
+    padding: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.item1{
+   
+}

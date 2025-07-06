@@ -1,0 +1,36 @@
+body {
+    color: #fff;
+    display: grid;
+    /* grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 200px 400px 200px; 
+    grid-template-areas:
+        "header header header "
+        "main . aside"
+        "footer footer footer"
+    ;*/
+
+    grid-template:
+        "header header header " 200px "main . aside" 400px "footer footer footer" 200px/2fr 1fr 1fr;
+
+}
+
+header {
+    background-color: rgb(0, 170, 255);
+    grid-area: header;
+}
+
+main {
+    background-color: rgb(14, 174, 14);
+    grid-area: main;
+}
+
+aside {
+    background-color: blueviolet;
+    grid-area: aside;
+}
+
+footer {
+    background-color: brown;
+    grid-area: footer;
+
+}

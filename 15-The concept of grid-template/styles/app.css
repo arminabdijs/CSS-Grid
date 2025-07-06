@@ -1,0 +1,20 @@
+.grid_container {
+    background-color: antiquewhite;
+    display: grid;
+    /* grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto 300px auto; */
+
+    /* grid-template-rows/grid-template-columns */
+    grid-template: auto 300px auto/repeat(4,1fr);
+   
+}
+
+.grid_item {
+    background-color: rgb(64, 226, 43);
+    color: azure;
+    margin: 4px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
